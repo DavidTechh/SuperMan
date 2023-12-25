@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{      
+ margin: 0;
+ padding: 0;
+list-style: none;
+text-decoration: none;
+
+}   
+header {
+    background-color: #000;
+    Height: 107px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav {
+width: 60%;
+}   
+
+ul {
+
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+
+li {
+list-style: none;
+color: #fff;
+cursor: pointer;
+font-size: 19px;
+transition: .5s;
+font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+li:hover {
+    color: darkblue;
+}
+
+#logo {
+width: 150px;
+height: auto;
+
+}   
+
+#banner {
+ background-image: url('https://i.imgur.com/31Ff6rd.jpeg');
+background-position: 90% 10%;
+background-size: cover;
+width: 100%;
+height: 1000px;
+}
+
+ .box{ 
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    background: transparent
+    
+   
+}
+.button{ 
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color:#fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    height: 300px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    
+}
+  
+span {
+    color:#fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+
+.footer-navigation {
+    display: none;
+    
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

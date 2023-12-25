@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{      
+ margin: 0;
+ padding: 0;
+list-style: none;
+text-decoration: none;
+
+}   
+header {
+    background-color: #000;
+    Height: 107px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav {
+width: 60%;
+}   
+
+ul {
+
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+
+li {
+list-style: none;
+color: #fff;
+cursor: pointer;
+font-size: 19px;
+transition: .5s;
+font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+li:hover {
+    color: darkblue;
+}
+
+#logo {
+width: 150px;
+height: auto;
+
+}   
+
+#banner {
+ background-image: url('https://image.tmdb.org/t/p/original//69EFgWWPFWbRNHmQgYdSnyJ94Ge.jpg');
+background-position: 90% 10%;
+background-size: cover;
+width: 100%;
+height: 600px;
+}
+
+h1 {
+
+    font-size: 40px;
+      color:#fff;
+    margin-block-end: 0%;
+        } 
+
+
+.actor-cards-container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #000;
+    column-gap: 3%;
+    flex-wrap: wrap;
+    
+}
+
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    
+}
+
+
+.card {
+    width: 30%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.banner-1 {
+
+    background-image: url('https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2021/04/superman-henry-cavill-2292683.jpg?tf=3840x')
+}
+
+.banner-2 {
+
+    background-image: url('https://i.pinimg.com/1200x/32/63/76/3263769c9990ac45ba6592e374d6c9a6.jpg')
+}
+
+.banner-3 {
+
+    background-image: url('https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/05/31/GeneralZod.jpeg')
+}
+
+.banner-4 {
+
+    background-image: url('https://static.wikia.nocookie.net/dccu/images/c/ca/Martha_reunites_with_Clark_%28ZSJL%29.png/revision/latest?cb=20210429224148')
+
+}
+.banner-5 {
+
+    background-image: url('https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/04/russell-crowe-in-man-of-steel.jpg')
+
+}
+.banner-6 {
+
+    background-image: url('https://static.wikia.nocookie.net/dccu/images/5/52/Jonathan_Kent.jpg/revision/latest?cb=20130620000936')
+
+}
+
+footer {
+    height: 300px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    
+}
+  
+span {
+    color:#fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+
+.footer-navigation {
+    display: none;
+    
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
